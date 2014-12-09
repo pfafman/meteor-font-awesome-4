@@ -15,3 +15,4 @@ meteor add pfafman:font-awesome-4
 #### Why another package of this?
 
 I needed Font Awesome 4.2 on meteor 0.9 and I could not find an existing package of this that was not working.  Yeah I know my general disclaimer...
+

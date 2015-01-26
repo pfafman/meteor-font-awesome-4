@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Font awesome packaged for meteor",
-  version: "4.2.0_4",
+  version: "4.3.0",
   git: "https://github.com/pfafman/meteor-font-awesome-4.git"
 });
 
@@ -9,11 +9,12 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'lib/css/font-awesome.css',
-    //'lib/fonts/FontAwesome.otf',
-    //'lib/fonts/fontawesome-webfont.svg',
+    'lib/fonts/FontAwesome.otf',
+    'lib/fonts/fontawesome-webfont.svg',
     'lib/fonts/fontawesome-webfont.woff',
-    //'lib/fonts/fontawesome-webfont.eot',
-    //'lib/fonts/fontawesome-webfont.ttf'
+    'lib/fonts/fontawesome-webfont.woff2',
+    'lib/fonts/fontawesome-webfont.eot',
+    'lib/fonts/fontawesome-webfont.ttf'
   ], 'client');
 });
 
@@ -23,10 +24,11 @@ Package.onTest(function(api) {
   api.use('pfafman:bootstrap-3');
   api.addFiles([
     'lib/css/font-awesome.css',
-    //'lib/fonts/FontAwesome.otf',
-    //'lib/fonts/fontawesome-webfont.svg',
+    'lib/fonts/FontAwesome.otf',
+    'lib/fonts/fontawesome-webfont.svg',
     'lib/fonts/fontawesome-webfont.woff',
-    //'lib/fonts/fontawesome-webfont.eot',
-    //'lib/fonts/fontawesome-webfont.ttf'
+    'lib/fonts/fontawesome-webfont.woff2',
+    'lib/fonts/fontawesome-webfont.eot',
+    'lib/fonts/fontawesome-webfont.ttf'
   ], 'client');
 });

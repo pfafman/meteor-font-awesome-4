@@ -1,7 +1,7 @@
 Font Awesome 4
 ==============
 
-[Font Awesome 4.2.0](http://fontawesome.io) packaged for [Meteor](https://www.meteor.com) 0.9+
+[Font Awesome 4.3.0](http://fontawesome.io) packaged for [Meteor](https://www.meteor.com) 1.0+
 
 Packaged by [Tim Pfafman](https://github.com/pfafman/meteor-font-awesome-4)
 
@@ -14,5 +14,5 @@ meteor add pfafman:font-awesome-4
 
 #### Why another package of this?
 
-I needed Font Awesome 4.2 on meteor 0.9 and I could not find an existing package of this that was not working.  Yeah I know my general disclaimer...
+I am not a fan of the github link on atmosphere not directing me to somewhere I can check out the package.js file to see what the package is adding before installing it.  If you don't care about this then use the [self-proclaimed official packaged version](https://atmospherejs.com/fortawesome/fontawesome).
 

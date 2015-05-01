@@ -1,6 +1,7 @@
 Package.describe({
+  name: 'pfafman:font-awesome-4',
   summary: "Font awesome packaged for meteor",
-  version: "4.3.0",
+  version: "4.3.0_1",
   git: "https://github.com/pfafman/meteor-font-awesome-4.git"
 });
 

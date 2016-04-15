@@ -14,5 +14,5 @@ meteor add pfafman:font-awesome-4
 
 #### Why another package of this?
 
-This is not the ["official packaged version"](https://atmospherejs.com/fortawesome/fontawesome).
+This is not the ["official packaged version"](https://atmospherejs.com/fortawesome/fontawesome), but that one is a bit out of date.
 

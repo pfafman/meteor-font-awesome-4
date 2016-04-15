@@ -1,24 +1,24 @@
 Package.describe({
   name: 'pfafman:font-awesome-4',
   summary: "Font awesome packaged for meteor",
-  version: "4.4.0_3",
+  version: "4.6.1",
   git: "https://github.com/pfafman/meteor-font-awesome-4.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.2');
+  api.versionsFrom('1.2.1');
 
   api.addFiles([
-    'lib/css/font-awesome.css'
+    'font-awesome/css/font-awesome.css'
    ], 'client');
 
    api.addAssets([
-    'lib/fonts/FontAwesome.otf',
-    'lib/fonts/fontawesome-webfont.svg',
-    'lib/fonts/fontawesome-webfont.woff',
-    'lib/fonts/fontawesome-webfont.woff2',
-    'lib/fonts/fontawesome-webfont.eot',
-    'lib/fonts/fontawesome-webfont.ttf'
+    'font-awesome/fonts/FontAwesome.otf',
+    'font-awesome/fonts/fontawesome-webfont.svg',
+    'font-awesome/fonts/fontawesome-webfont.woff',
+    'font-awesome/fonts/fontawesome-webfont.woff2',
+    'font-awesome/fonts/fontawesome-webfont.eot',
+    'font-awesome/fonts/fontawesome-webfont.ttf'
   ], 'client');
 });
 

@@ -1,12 +1,12 @@
 Package.describe({
   name: 'pfafman:font-awesome-4',
   summary: "Font awesome packaged for meteor",
-  version: "4.6.1",
+  version: "4.6.2",
   git: "https://github.com/pfafman/meteor-font-awesome-4.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2.1');
+  //api.versionsFrom('1.2.1');
 
   api.addFiles([
     'font-awesome/css/font-awesome.css'
